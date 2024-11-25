@@ -10,6 +10,7 @@ if [ "$1" == "--tmux-echo" ]; then # tmux-specific echo functions
 	source "$HELPERS_DIR/tmux_echo_functions.sh"
 else # shell output functions
 	source "$HELPERS_DIR/shell_echo_functions.sh"
+ 	a="a"
 fi
 
 clean_plugins() {
